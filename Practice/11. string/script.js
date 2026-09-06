@@ -1,4 +1,5 @@
-
+let str = "tarun"
+console.log(str)
 
 // ! String : sequence of character
 
@@ -146,3 +147,5 @@
 // ! includes() : It returns the boolean value ie; true and false,checks weather substring is present in the string or not.
 // let str = "Akshit is a good boy. Akshit is in 4th year";
 // console.log(str.includes("Akshit"));
+
+
