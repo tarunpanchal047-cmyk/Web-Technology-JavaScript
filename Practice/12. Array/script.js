@@ -141,6 +141,14 @@
 
 // console.log(result);
 
+let arr = [10,20,30,40,50];
+
+let res = arr.every((val)=>{
+    return val>30;
+})
+
+console.log(res);
+
 
 
 // ! Push() : It is used to add the elements from the end of the array. It modifies the original array. It returns 
