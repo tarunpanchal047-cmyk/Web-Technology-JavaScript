@@ -149,3 +149,9 @@ console.log(str)
 // console.log(str.includes("Akshit"));
 
 
+
+
+
+let ab = "I am a good software developer"
+console.log(ab)
+
