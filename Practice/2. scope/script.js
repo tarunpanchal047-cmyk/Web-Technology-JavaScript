@@ -68,6 +68,16 @@
 // console.log(b)
 // console.log(c)
 
+{
+    var a = 10;
+    let b = 20;
+    const c = 30;
+}
+console.log(a)
+console.log(b)
+console.log(c)
+
+
 //! Local Scope / Function Scope : If the variable are declared by either using var, let or 
 //!        const, then the scopes of the variable is in thr local scope, which means variable 
 //!        can be accessed only within the function, because local scope restricts the variable 
