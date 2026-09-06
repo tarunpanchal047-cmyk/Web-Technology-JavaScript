@@ -31,6 +31,13 @@
 // }
 // sum(5,8);
 
+
+
+function abd (){
+    console.log(a + b)
+}
+abd(10,70)
+
 // !  2. Anonymous function : Function which doesn't have any name is called anonymous function.
 
 //  function(){
