@@ -326,6 +326,7 @@ const newPrice = products.map(product => product.id === 2 ?
     {...products, price:1200}:product)
 console.log(newPrice)
 
+
 // Expected Output:
 
 // [
