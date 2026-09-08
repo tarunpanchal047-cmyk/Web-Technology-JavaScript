@@ -21,7 +21,9 @@
 // ! Update
 // let arr = [1, "abc", true, 123n, null, undefined, Symbol("abc"),
 //      function(){console.log("function")},["HTML", "CSS", "JS"],{}]
+
 //      console.log(arr);
+
 //      arr[4] = "NewData";
 
 //      arr[10] = "NewData2";
@@ -29,8 +31,8 @@
 
 //      ! Delete 
 // let arr = [1, "abc", true, 123n, null, undefined, Symbol("abc")];
-//      console.log(arr)
-//      delete arr[0];
+    //  console.log(arr)
+    //  delete arr[0];
 //      delete arr[1];
 // console.log(arr);
 
@@ -141,13 +143,13 @@
 
 // console.log(result);
 
-let arr = [10,20,30,40,50];
+// let arr = [10,20,30,40,50];
 
-let res = arr.every((val)=>{
-    return val>30;
-})
+// let res = arr.every((val)=>{
+//     return val>30;
+// })
 
-console.log(res);
+// console.log(res);
 
 
 
@@ -235,8 +237,6 @@ console.log(res);
 // console.log(res);
 
 
-
-
 //^ for each
 // let arr = [1,2,3,4,5]
 // arr.forEach(function(val){
@@ -273,11 +273,11 @@ console.log(res);
 // let arr = [1,2,3,4,5]
 // let [a,b,c] = arr;
 // console.log(arr)
+// 
 
 
 
-
-//& spred operator 
+// /& spred operator 
 // let arr = [1,2,3,4,5]
 // let arr2 = [...arr];
 // console.log(arr2)
@@ -286,3 +286,253 @@ console.log(res);
 // console.log(arr)
 
 
+// 🔥 CRUD Operation Coding Practice — 10 Questions
+// 1. Delete a Product from an Array
+
+// Given an array of products, delete the product whose id matches deleteId.
+
+// Input:
+
+// const products = [
+//   { id: 1, name: "Laptop", price: 50000 },
+//   { id: 2, name: "Mouse", price: 800 },
+//   { id: 3, name: "Keyboard", price: 1500 }
+// ];
+//  const abc = products.filter(product => product.id !==2 )
+//  console.log(abc)
+
+// Expected Output:
+
+// [
+//   { id: 1, name: "Laptop", price: 50000 },
+//   { id: 3, name: "Keyboard", price: 1500 }
+// ]
+
+// 2. Update a Product
+
+// Update the price of the product whose id = 2 to 1200.
+
+// Input:
+
+const products = [
+  { id: 1, name: "Laptop", price: 50000 },
+  { id: 2, name: "Mouse", price: 800 },
+  { id: 3, name: "Keyboard", price: 1500 }
+];
+
+// const updateId = 2;
+
+const newPrice = products.map(product => product.id === 2 ? 
+    {...products, price:1200}:product)
+console.log(newPrice)
+
+// Expected Output:
+
+// [
+//   { id: 1, name: "Laptop", price: 50000 },
+//   { id: 2, name: "Mouse", price: 1200 },
+//   { id: 3, name: "Keyboard", price: 1500 }
+// ]
+
+// 3. Search Users — String + Array
+
+// Given a list of users, find all users whose name contains "rah". The search should be case-insensitive.
+
+// Input:
+
+// const users = [
+//   { id: 1, name: "Rahul" },
+//   { id: 2, name: "Amit" },
+//   { id: 3, name: "Rohan" },
+//   { id: 4, name: "Sourav" }
+// ];
+
+// const search = "rah";
+
+// Expected Output:
+
+// [
+//   { id: 1, name: "Rahul" }
+// ]
+
+// 4. Add a New Product
+
+// Add a new product to the existing product array.
+
+// Input:
+
+// const products = [
+//   { id: 1, name: "Laptop", price: 50000 },
+//   { id: 2, name: "Mouse", price: 800 }
+// ];
+
+// const newProduct = {
+//   id: 3,
+//   name: "Keyboard",
+//   price: 1500
+// };
+
+// Expected Output:
+
+// [
+//   { id: 1, name: "Laptop", price: 50000 },
+//   { id: 2, name: "Mouse", price: 800 },
+//   { id: 3, name: "Keyboard", price: 1500 }
+// ]
+// 5. Remove Duplicate Users
+
+// If multiple users have the same email, keep only the first user.
+
+// Input:
+
+// const users = [
+//   { id: 1, name: "Rahul", email: "rahul@gmail.com" },
+//   { id: 2, name: "Amit", email: "amit@gmail.com" },
+//   { id: 3, name: "Rahul 2", email: "rahul@gmail.com" }
+// ];
+
+// Expected Output:
+
+// [
+//   { id: 1, name: "Rahul", email: "rahul@gmail.com" },
+//   { id: 2, name: "Amit", email: "amit@gmail.com" }
+// ]
+// 6. Cart Operation — Add / Update Quantity ⭐
+
+// Given a shopping cart:
+
+// If the product already exists, increase its quantity by 1.
+// If it does not exist, add it to the cart.
+
+// Input:
+
+// const cart = [
+//   { productId: 1, name: "Laptop", quantity: 1 },
+//   { productId: 2, name: "Mouse", quantity: 2 }
+// ];
+
+// const product = {
+//   productId: 2,
+//   name: "Mouse"
+// };
+
+// Expected Output:
+
+// [
+//   { productId: 1, name: "Laptop", quantity: 1 },
+//   { productId: 2, name: "Mouse", quantity: 3 }
+// ]
+// 7. Remove a Product from Cart
+
+// Remove the product whose productId matches removeId.
+
+// Input:
+
+// const cart = [
+//   { productId: 1, name: "Laptop", quantity: 1 },
+//   { productId: 2, name: "Mouse", quantity: 3 },
+//   { productId: 3, name: "Keyboard", quantity: 2 }
+// ];
+
+// const removeId = 2;
+
+// Expected Output:
+
+// [
+//   { productId: 1, name: "Laptop", quantity: 1 },
+//   { productId: 3, name: "Keyboard", quantity: 2 }
+// ]
+// 8. Update Student Marks + Filter
+
+// Update the marks of the student whose id = 1 to 55.
+
+// Then return only students whose marks are >= 40.
+
+// Input:
+
+// const students = [
+//   { id: 1, name: "Rahul", marks: 35 },
+//   { id: 2, name: "Amit", marks: 70 },
+//   { id: 3, name: "Riya", marks: 45 }
+// ];
+
+// const updateId = 1;
+// const newMarks = 55;
+
+// Expected Output:
+
+// [
+//   { id: 1, name: "Rahul", marks: 55 },
+//   { id: 2, name: "Amit", marks: 70 },
+//   { id: 3, name: "Riya", marks: 45 }
+// ]
+// 9. Update a Nested Object
+
+// Update the city inside a user's address object.
+
+// Input:
+
+// const user = {
+//   id: 1,
+//   name: "Rahul",
+//   address: {
+//     city: "Kolkata",
+//     pin: 700001
+//   }
+// };
+
+// const newCity = "Delhi";
+
+// Expected Output:
+
+// {
+//   id: 1,
+//   name: "Rahul",
+//   address: {
+//     city: "Delhi",
+//     pin: 700001
+//   }
+// }
+// 10. 🔥 Complete CRUD — E-commerce Product
+
+// This is the most important one.
+
+// Perform these 4 operations:
+
+// Create → Add a new product
+// Update → Update a product by id
+// Delete → Delete a product by id
+// Read/Filter → Get products whose price is greater than 1000
+
+// Initial Input:
+
+// const products = [
+//   { id: 1, name: "Laptop", price: 50000 },
+//   { id: 2, name: "Mouse", price: 800 },
+//   { id: 3, name: "Keyboard", price: 1500 }
+// ];
+
+// Step 1 — Add:
+
+// { id: 4, name: "Monitor", price: 10000 }
+
+// Step 2 — Update:
+
+// id = 2
+// price = 1200
+
+// Step 3 — Delete:
+
+// delete id = 3
+
+// Step 4 — Filter:
+
+// price > 1000
+
+// Expected Final Output:
+
+// [
+//   { id: 1, name: "Laptop", price: 50000 },
+//   { id: 2, name: "Mouse", price: 1200 },
+//   { id: 4, name: "Monitor", price: 10000 }
+// ]
