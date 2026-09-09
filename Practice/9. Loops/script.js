@@ -83,6 +83,7 @@
     // let res = confirm("Are you 18+")
     // console.log(res);
 
+
 //     ? prompt() : It is a popup method, which is used to take the input from the user. It type case the data entered througgh prompt into string type.
 
     // let no1 = Number(prompt("Enter No 1"));
@@ -151,7 +152,7 @@
 
 //! EVENT LOOP :
             //~ Event loop is a mechanism in Javascript that continuously checks :
-                //~ --> Whether the call stack is empty and mmoves tasks from queues to the stack for execution.
+                //~ --> Whether the call stack is empty and moves tasks from queues to the stack for execution.
                 //& Call Stack : 
                     //~ A data structure where JavaScript executes code line by line(LIFO- Last In First Out).
                 

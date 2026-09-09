@@ -44,7 +44,8 @@
 //& type of variable : i.e; var / let / const
 //& position of the variable inside the js.
 
-//! Global : If you have declared any variable outside the block and function by using var keyword, then the scope of variable is in the global scope.
+//! Global : If you have declared any variable outside the block and function by using var keyword, then the scope
+//!  of variable is in the global scope.
 // var a = 100;
 // console.log(a)
 
@@ -68,14 +69,14 @@
 // console.log(b)
 // console.log(c)
 
-{
-    var a = 10;
-    let b = 20;
-    const c = 30;
-}
-console.log(a)
-console.log(b)
-console.log(c)
+// {
+//     var a = 10;
+//     let b = 20;
+//     const c = 30;
+// }
+// console.log(a)
+// console.log(b)
+// console.log(c)
 
 
 //! Local Scope / Function Scope : If the variable are declared by either using var, let or 

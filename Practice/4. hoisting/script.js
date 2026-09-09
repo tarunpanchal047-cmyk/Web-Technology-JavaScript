@@ -65,6 +65,8 @@
 // console.log(a);
 //  a = 12;               // error
 
+
 //  var --> hoist --> undefined
 //  let --> hoist --> x
+
 //  const --> hoist -->  x

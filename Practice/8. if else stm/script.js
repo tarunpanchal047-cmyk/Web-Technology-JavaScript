@@ -42,6 +42,7 @@
 
     // let day = "MON";
 
+    
     // switch(day) {
     //     case "MON" :
     //         console.log("MONDAY");
