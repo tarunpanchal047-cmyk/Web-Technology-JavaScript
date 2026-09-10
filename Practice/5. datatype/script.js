@@ -11,7 +11,7 @@
 //? Typeof : It is tells which type of data, you are using.
 
 //! 1. Primitive (Immutable) : 
-//^ Primitive datatypes are the basic or simple datatypes that store in a single value directly. They are immutable,
+//^  Primitive datatypes are the basic or simple datatypes that store in a single value directly. They are immutable,
 //^  which means their values cannot be changed once created (changing them creates a new value).
 
 //      ? number : The Number data type is used to store integers and decimal (floating-point) values.
