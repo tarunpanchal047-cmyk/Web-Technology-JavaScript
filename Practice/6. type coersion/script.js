@@ -1,6 +1,7 @@
-//     ! Identifiers : An Identifier is the name that given to the variable by the programmer.
+//! Identifiers :
+//^  An Identifier is the name that given to the variable by the programmer.
 
-//     ! Rule of Identifier 
+//! Rule of Identifier 
 //     ~ It should not start with number.
 //     ~ Special character are not allowed.
 //     ~ Only underscore and clone are allowed.
@@ -10,11 +11,16 @@
 
     
 
-//     ! Special Operator : special operators are operators that perform specific tasks beyond basic arithmetic or comparison. Interviewers often ask about these operators.
-//! Type coersion ( == vs === ) Type Coercion is the automatic conversion of one data type to another by JavaScript during an operation or comparison.
-//     ^ == vs ===
-//     ? == : It checks only values 
-//     ? === : It checks values as well as data types. It is also knowm as strict type checking.
+//! Special Operator : 
+//^ Special operators are operators that perform specific tasks beyond basic arithmetic or comparison. Interviewers often ask about
+//^  these operators.
+
+//* Type coersion ( == vs === ) Type Coercion is the automatic conversion of one data type to another data type by JavaScript during 
+//* an operation or comparison.
+
+//! == vs ===
+//?   == : It checks only values 
+//?   === : It checks values as well as data types. It is also knowm as stricttype checking.
 
     // console.log(2 == 2)    // true
     // console.log(2 == "2")  // true   // '22'        // do logo ko jod na concatination
@@ -38,7 +44,8 @@
 
 //! truly and falsy values :
 
-// ~ falsy-val : 0, false, null, undefined, NaN, "", 0n, -0, document.all
+//^ falsy-val :---------- 
+//?                                  0, false, null, undefined, NaN, "", 0n, -0, document.all
 
 
 

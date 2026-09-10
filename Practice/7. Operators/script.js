@@ -103,7 +103,8 @@
 
 
 
-//     ! Ternary operator : A short form of the if...else statement.
+//! Ternary operator : 
+//^    A short form of the if...else statement.
     
 //     let res = ("condition")? "true" : "false"
 //     console.log(res);

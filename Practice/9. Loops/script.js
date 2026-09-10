@@ -1,18 +1,21 @@
 
-//     ! LOOPS in javascript : A loop is a control statement used to execute a block of code repeatedly until a specified condition becomes false.
+//! LOOPS in javascript :
+//^  A loop is a control statement used to execute a block of code repeatedly until a specified condition becomes false.
  
 // for (start; end; change){
 
 // }
 
 
-//     ? 1. for loop : The for loop is used when you know how many times you want to repeat the code.
+//! 1. for loop : 
+//^ The for loop is used when you know how many times you want to repeat the code.
 
 //     for(let i=0; i<=10; i++){
 //         console.log(i);
 //     }
 
-//     ? 2. while : The while loop executes the code as long as the condition is true.
+//! 2. while :
+//^  The while loop executes the code as long as the condition is true.
 // satrt 
 // while(end){
        //code
@@ -26,7 +29,8 @@
 //         i++
 //     }
 
-//     ? 3. do-while : The do...while loop executes the code at least once, even if the condition is false.
+//! 3. do-while : 
+//^  The do...while loop executes the code at least once, even if the condition is false.
 // start 
 // do{
     
@@ -70,21 +74,22 @@
 
 
 //     !  Output method in JS
-//     ? console.log() : It is used for testing purpose.
+//?    console.log() : It is used for testing purpose.
     // console.log("Statement1");
 
-//     ? document.writeln() : It is used to display the data on the UI.
+//?    document.writeln() : It is used to display the data on the UI.
     // document.writeln("Statement2");
 
-//     ? alert() : It is a popup to methid in JS.
+//?     alert() : It is a popup to methid in JS.
     // alert("Password not matching");
 
-//     ? confirm() : It is another popup method, in which two options are present.
+//?     confirm() : It is another popup method, in which two options are present.
     // let res = confirm("Are you 18+")
     // console.log(res);
 
 
-//     ? prompt() : It is a popup method, which is used to take the input from the user. It type case the data entered througgh prompt into string type.
+//?     prompt() : It is a popup method, which is used to take the input from the user. It type case the data entered througgh prompt
+//?     into string type.
 
     // let no1 = Number(prompt("Enter No 1"));
     // let no2 = parseInt(prompt("Enter No 2"));
@@ -92,7 +97,8 @@
     // console.log(no1 + no2);
 
 
-//     ! PreseInt : Only take no if you enter number and string it contain only no avoid string.
+//! PreseInt : 
+//^ Only take no if you enter number and string it contain only no avoid string.
     // let res1 =  parseInt(prompt("enter no"));
     // console.log(res1);
 

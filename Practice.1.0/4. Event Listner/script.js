@@ -21,7 +21,7 @@
 
 //! the first event with out on keyword 
 //! the second argument is the call back function
-//! and the third argument is the boolean value event bublling event capturing 
+//! and the third argument is the boolean value event bublling and event capturing 
 
 //! event propogation : the process of calling and event is known as propogaiton 
 // there are two types of event propogation 

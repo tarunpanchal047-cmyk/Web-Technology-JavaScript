@@ -1,9 +1,10 @@
-// ! Decision / Conditional Statement : Decision statements are control flow statements 
-// ! used to execute different blocks of code based on whether a condition is true or false.
+//! Decision / Conditional Statement :
+//^  Decision statements are control flow statements used to execute different blocks of code based on whether a condition is true or false.
 
 // ~ falsy val : 0, false, null, undefined, NaN, "", 0n, -0
 
-// ! 1. if Statement : Executes the code only if the condition is true.
+//! 1. if Statement : 
+//^ Executes the code only if the condition is true.
 
 // let age = 20;
 
@@ -11,7 +12,8 @@
 //     console.log("Eligible to vote");
 // }
 
-// ! 2. if-else : Executes one block if the condition is true; otherwise, executes another block.
+//! 2. if-else :
+//^  Executes one block if the condition is true; otherwise, executes another block.
 
     // if(""){
     //     console.log("truthy val")
@@ -38,7 +40,8 @@
 
 
 
-//     ! Switch : Used to select one block of code from multiple options.
+//! Switch :
+//^  Used to select one block of code from multiple options.
 
     // let day = "MON";
 

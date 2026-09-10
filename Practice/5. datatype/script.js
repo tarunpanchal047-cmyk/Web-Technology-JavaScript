@@ -1,17 +1,19 @@
 
-//     ! Datatype : Data type is the type of value that variable can store. 
-//     ! In JavaScript, data types are mainly divided into Primitive and Non-Primitive types.
-//     !  Primitive types include Number, String, Boolean, Undefined, Null, BigInt, and Symbol.
-//     !  Non-Primitive types include Object, Array, Function, and Date. We can check the type of
-//     !  a value using the typeof operator.
+//! Datatype : 
+//^  Data type is the type of value that variables can store. In JavaScript, data types are mainly divided into two parts Primitive
+//^  and Non-Primitive types.
+
+//*---  Primitive types include Number, String, Boolean, Undefined, Null, BigInt, and Symbol.
+//*---  Non-Primitive types include Object, Array, Function, and Date. We can check the type of a value using the typeof operator.
 
 
 
-//     ! Typeof : It is tells which type of data, you are using.
+//? Typeof : It is tells which type of data, you are using.
 
-//     ^ 1. Primitive (Immutable) : Primitive datatypes are the basic or simple datatypes that
-//     ^  store in a single value directly. They are immutable, which means their values cannot be 
-//     ^ changed once created (changing them creates a new value).
+//! 1. Primitive (Immutable) : 
+//^ Primitive datatypes are the basic or simple datatypes that store in a single value directly. They are immutable,
+//^  which means their values cannot be changed once created (changing them creates a new value).
+
 //      ? number : The Number data type is used to store integers and decimal (floating-point) values.
 //      let no = 12345
 //      console.log(no)
@@ -60,8 +62,9 @@
 
 
 
-//     ^ 2. Non-primitive : Non-Primitive data types are complex data types that can store multiple values or collections of data.
-//     ^  They are stored by reference, and their contents can be modified.
+//! 2. Non-primitive :
+//^  Non-Primitive data types are complex data types that can store multiple values or collections of data. They are stored by reference,
+//^  and their contents can be modified.
 
 
 //     ? array : An Array stores multiple values in a single variable.

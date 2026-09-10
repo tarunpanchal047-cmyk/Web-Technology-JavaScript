@@ -12,7 +12,7 @@
     //~ Initially, it was named Mocha. Then, the name was changed to LiveScript.
     //~ Again, for marketing purposes, the name was changed to JavaScript because at that time Java was a very popular language. 
     //~ To get the popularity of Java, the owner of Java (Sun Microsystems) and the owner of JavaScript (Netscape Corporation) together 
-    //~ made an agreement and then the name was changed into JavaScript.
+    //~ made an agrement and then the name was changed into JavaScript.
     //~ Again, in 1997, JavaScript became ECMA Script. ECMA stands for European Computer Manufacturers Association.
     //~ Then, different versions of ECMAScript were released. The latest version of ECMAScript is ECMAScript 2026.
     //~ The famous versions of ECMAScript are: ES6, ES7 and ES9.
@@ -27,7 +27,7 @@
                 //* map, filter , reduce
                 //* spread operator
                 //* rest parameter etc.
-
+ 
         //^ Featuers of JavaScript
                 //* Dynamic In nature
                     //~ Variables are not bound to store specific data, inside one variable, you can store any type of data.

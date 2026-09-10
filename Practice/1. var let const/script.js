@@ -1,22 +1,24 @@
 
 
 
-//! TOKEN : Smallest individual unit of program.
+//! TOKEN : 
+//^ Smallest individual unit of program.
 
 //! Variable rules : 
-//! 1. Variable names are case sensitive "a" and "A" is different.
-//! 2. Only letters, digits, underscore(_) and $ is allowed. (not even space)
-//! 3. Only a letter, underscore(_) or $ should be 1st character.
-//! 4. Reserved words cannot be variables names.
+//^ 1. Variable names are case sensitive "a" and "A" is different.
+//^ 2. Only letters, digits, underscore(_) and $ is allowed. (not even space)
+//^ 3. Only a letter, underscore(_) or $ should be 1st character.
+//^ 4. Reserved words cannot be variables names.
 
 //! VARIABLE:
-    //~ Variables is a just like a container which is used to store the data. It will be change.
-    //~ There are three types of variabile :
+    //^ Variables is a just like a container which is used to store the data. It will be change.
+    //! There are three types of variabile :
         //* VAR
         //* LET
         //* CONST
 
-     //^ VAR : A function-scoped variable that can be re-declared and re-assigned.
+     //! VAR : 
+     //^ A function-scoped variable that can be re-declared and re-assigned.
         //? declaration --> possible
             //var abc;
         //? initialization --> possible
@@ -28,7 +30,8 @@
         //? Re-Initialization --> possible
             //a = "abc";
     
-    //^ LET : A block-scoped variable that cannot be re-declared in the same scope but can be reassigned.
+    //! LET : 
+    //^ A block-scoped variable that cannot be re-declared in the same scope but can be reassigned.
         //? declaration --> possible
             //let abc;
         //? initialization --> possible
@@ -40,7 +43,8 @@
         //? Re-Initialization --> possible
             //a = "abc";
 
-    //^ CONST : A block-scoped variable that cannot be re-declared or reassigned after initialization.
+    //! CONST : 
+    //^ A block-scoped variable that cannot be re-declared or reassigned after initialization.
         //? declaration --> Not possible
             //const abc; //not possible
         //? initialization --> Not possible

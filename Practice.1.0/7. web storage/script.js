@@ -2,7 +2,7 @@
 
 //! web storages are the inbuilt stiorage present inside the broeswer.   
 //! there are 2 type of web storages
-//? 1. local storages : local storage pursoses the data even after closing the browser.
+//? 1. local storages : local storage processes the data even after closing the browser.
 //?  the size of the local storage is arround 2 to 8 mb depend on the browser.
 
 
@@ -23,7 +23,7 @@
 // localStorage.clear()
 
 
-//? 2. session storages : sessionStorage pursiss the data only for a particular data the sixe of the sessionStorage is arround 2 to 8 mb depend on the browser.
+//? 2. session storages : sessionStorage processes the data only for a particular data the size of the sessionStorage is arround 2 to 8 mb depend on the browser.
 
 //^ setItem(): Used to set data inside the local storage 
 // sessionStorage.setItem("id",1)
